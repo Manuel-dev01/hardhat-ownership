@@ -1,4 +1,4 @@
-import { ethers } from "hardhat"
+const {ethers} = require("hardhat")
 
 async function deploy() {
     const Proof = await ethers.getContractFactory("Proof")
